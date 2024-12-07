@@ -7,11 +7,6 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    // return [
-    //     "status" => true,
-    //     "message" => 'Hello to /about route!'
-    // ];
-
     return view('about');
 });
 

@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<x-layout>
+    <x-slot:heading>
+        Contact
+    </x-slot:heading>
+    <h1>Hello from the Contact page</h1>
+</x-layout>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-</head>
-
-<body>
-    <h1>Hello from the contact page</h1>
-</body>
-
-</html>
+Exception
