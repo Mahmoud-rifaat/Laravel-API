@@ -24,8 +24,8 @@
                                 <x-nav-link href="/" :active="request()->is('/')" type="a">
                                     Home
                                 </x-nav-link>
-                                <x-nav-link href="/about" :active="request()->is('about')" type="a">
-                                    About
+                                <x-nav-link href="/jobs" :active="request()->is('jobs')" type="a">
+                                    Jobs
                                 </x-nav-link>
                                 <x-nav-link href="/contact" :active="request()->is('contact')" type="a">
                                     Contact
@@ -92,8 +92,8 @@
                     <a href="/"
                         class="{{ request()->is('/') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium"
                         aria-current="page">Home</a>
-                    <a href="/about"
-                        class="{{ request()->is('/about') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium">About</a>
+                    <a href="/jobs"
+                        class="{{ request()->is('/jobs') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium">Jobs</a>
                     <a href="/contact"
                         class="{{ request()->is('/contact') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} block rounded-md px-3 py-2 text-base font-medium">Contact</a>
                 </div>
